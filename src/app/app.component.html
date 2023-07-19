@@ -1,0 +1,8 @@
+<div class=" container">
+<h2>Character & Word Count</h2>
+<textarea name ="" #text  cols="30" [(ngModel)]="name" placeholder="Enter the String" ></textarea>
+<button type="button" (click)="calString()">Count Character </button>
+<button type="button" (click)="calWord()">Count Words </button>
+<div>No Of Characters : <span>{{character}}</span></div>
+<div>No Of Words : <span>{{words}}</span></div>
+</div>
